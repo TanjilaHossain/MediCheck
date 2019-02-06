@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView4"
+    android:layout_gravity="center_horizontal"
+    android:layout_weight="0.05"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Attention Deficit Disorder\n"
+            android:id="@+id/textView42"
+            android:layout_gravity="center_horizontal"
+            android:background="#945555"
+            android:layout_weight="0.05" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Symptom:"
+            android:id="@+id/textView47"
+            android:background="#2e9e82" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="The signs and symptoms of ADD/ADHD typically appear before the age of seven. However, it can be difficult to distinguish between attention deficit disorder and normal “kid behavior.The three primary characteristics of ADD/ADHD are  inattention, hyperactivity, and impulsivity. The signs and symptoms a child with attention deficit disorder has depends on which characteristics predominate. Symptoms of inattention in children: 1.Doesn’t pay attention to details. 2.Makes careless mistakes 3.Has trouble staying focused; is easily distrac "
+            android:id="@+id/textView48"
+            android:background="#f3d3d3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Symptoms of hyperactivity in children: \n"
+            android:id="@+id/textView49"
+            android:background="#2e9e82" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1.Positive effects of ADD &amp; ADHD in children 2.Constantly fidgets and squirms "
+            android:id="@+id/textView50"
+            android:background="#f3d3d3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Symptoms of impulsivity in children: "
+            android:id="@+id/textView61"
+            android:background="#2e9e82" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1.Acts without thinking 2.Guesses, rather than taking time to solve a problem.etc. "
+            android:id="@+id/textView62"
+            android:background="#f3d3d3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Treatment:"
+            android:id="@+id/textView63"
+            android:background="#2e9e82" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Don’t wait to get help for your child. If your child struggles with symptoms that look like ADD/ADHD,  don’t wait to seek professional help. You can treat your childs without having a diagnosis  of attention deficit disorder.Options to start with include getting your child into therapy, implementing a better diet and exercise plan, and modifying the home environment to minimize distractions. If you do receive a diagnosis of ADD/ADHD, you can  then work with your child’s doctor, therapist, and school  to make a personalized treatment plan that meets his or her specific needs. "
+            android:id="@+id/textView64"
+            android:background="#f3d3d3" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:id="@+id/bBack"
+            android:onClick="onClickBackButton"
+            android:background="#133a2f"
+            android:textColor="#ffffff" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

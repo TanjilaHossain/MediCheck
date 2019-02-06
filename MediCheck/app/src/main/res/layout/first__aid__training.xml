@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView2"
+    android:layout_gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#a9f7e5">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.medicheckproject.medicheck.First_Aid_Training">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="FIRST AID TRAINING"
+        android:id="@+id/textView23"
+        android:layout_marginLeft="90dp"
+        android:background="#71d384" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Adult / Child Choking : Severe Airway Blockage"
+        android:id="@+id/textView25"
+        android:background="#be4b7e" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView7"
+        android:src="@drawable/child_choking" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Victim is responsive:\n
+ Quickly ask, “are you choking?”\n\n
+ If the victim nods yes, or is unable to talk speak, or cough – act quickly.\n\n
+ Stand behind the victim\n\n
+ Make a fist and place the thumb side of that hand against the victim’s abdomen, just above the navel and below the ribs. Grasp fist with the other hand.\n\n
+ Quickly thrust inward and upward into the abdomen.\n\n
+ Repeat thrusts until object is expelled or victim becomes unresponsive.\n\n  "
+        android:id="@+id/textView26" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Severe Airway Blockage\n"
+        android:id="@+id/textView28"
+        android:background="#be4b7e" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:src="@drawable/cpr" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Victim is unresponsive:\n
+    If needed, help the victim to the ground
+and alert EMS / call 911.\n\n
+    Begin chest thrusts as you would with
+CPR. Each time the airway is opened
+look for the object in the victim’s throat
+and if you can see it, remove it – being
+careful not to lodge the object further into the victim’s throat.\n\n
+    Continue chest thrusts until EMS / Paramedics arrive, or the
+victim shows signs of breathing /responsiveness."
+        android:id="@+id/textView29" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/textView30" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Arm sling – what you need to do:\n"
+        android:id="@+id/textView27"
+        android:background="#be4b7e" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Step 1: Support their bad arm"
+        android:id="@+id/textView31"
+        android:background="#1b9871" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView9"
+        android:src="@drawable/step_one" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="• Ask them to support their bad arm with their other hand. Slide the triangular bandage underneath it, with the longest edge (the base) parallel to their body at the tip of the little finger. The tip of the bandage (the point) should stick out past their elbow.\n"
+        android:id="@+id/textView32" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Step 2: Make a reef knot "
+        android:id="@+id/textView33"
+        android:background="#1b9871" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView10"
+        android:src="@drawable/step_two" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="• Tie the ends together in a reef knot at the hollow above their collar bone and tuck in the ends. \n"
+        android:id="@+id/textView34" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Step 3: Adjust the sling"
+        android:id="@+id/textView35"
+        android:background="#1b9871" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView11"
+        android:src="@drawable/step_three" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="• Adjust the sling so that it supports their arm all the way to the top of their little finger.\n
+
+• Twist the tip by their elbow until it fits snugly around their elbow and tuck it in or safety pin it.\n
+• Check their circulation in their fingers and keep checking every ten minutes. If it’s too tight, loosen the bandage and sling and tie them again.\n
+
+"
+        android:id="@+id/textView36" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="How To Perform CPR"
+        android:id="@+id/textView6"
+        android:background="#be4b7e" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView7"
+        android:background="#be4b7e" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView14"
+        android:src="@drawable/c1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Step 1 :\nCheck the scene for immediate danger. Make sure you&apos;re not putting yourself in harm&apos;s way by administering CPR to someone unconscious. Is there a fire? Is the person lying on a roadway? Do whatever is necessary to move yourself and the other person to safety.\n* If there is anything that could endanger you or the victim, see whether there is something you can do to counteract it. Open a window, turn off the stove, or put out the fire, if possible. \n* However, if there is nothing you can do to counteract the danger, move the victim. The best way to move the victim is by placing a blanket or coat underneath their back and dragging it.\n\n"
+        android:id="@+id/textView8" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imageView15"
+        android:src="@drawable/c2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Step 2 :\nAssess the victim&apos;s consciousness. Gently tap his or her shoulder and ask &quot;Are you OK?&quot; in a loud, clear voice. If he or she responds agreement &quot;Yeah&quot; or such, CPR is not required. Instead, undertake basic first aid and take measures to prevent or treat shock[1], and assess whether you need to contact emergency services. If the victim does not respond, continue with the following steps.\n\n"
+        android:id="@+id/textView9" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imageView16"
+        android:src="@drawable/c3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Step 3 :\nSend for help. The more people available for this step, the better. However, it can be done alone. Send someone to call for emergency medical services (EMS). To contact emergency services, call  • 911 in North America  • 000 in Australia  • 112 by cell phone in the EU (including the UK)  • 999 in the UK and Hong Kong.  • 102 in India  •1122 in Pakistan  • 111 in New Zealand  •123 in Egypt  •120 in China Give the dispatcher your location, and notify him or her that you&apos;re going to perform CPR. If you&apos;re alone, get off the phone and start compressions after that. If you have someone else with you, have him or her stay on the line while you do CPR on the victim.\n\n"
+        android:id="@+id/textView37" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imageView17"
+        android:src="@drawable/c4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Step 4 :\nDo not check for a pulse. Unless you&apos;re a trained medical professional, odds are you&apos;ll spend too much valuable time looking for a pulse when you should be doing compressions.\n\n"
+        android:id="@+id/textView38" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView18"
+        android:src="@drawable/c5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Step 5 :\nCheck for breathing. And, make sure that the airway is not blocked. If the mouth is closed, press with your thumb and forefinger on both cheeks at the end of the teeth and then look inside. Remove any visible obstacle that is in your reach but never push your fingers inside too far. Put your ear close to the victim&apos;s nose and mouth, and listen for slight breathing.\n\n\n"
+        android:id="@+id/textView39" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView40" />
+</LinearLayout>
+</ScrollView>
+

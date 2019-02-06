@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView3"
+    android:layout_gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Alcohol Abuse  and Alcoholism"
+            android:id="@+id/textView41"
+            android:background="#7f0d0d"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Signs of Alcohol Abuse"
+            android:id="@+id/textView43"
+            android:background="#2e9e82" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Loss of control over amount consumed once they begin drinking Regular inattention to family and professional obligations Dangerous behaviors that carry risk of legal, financial and/or health consequences for themselves and others Increase in expressions of anger or other emotions, especially in inappropriate settings Insomnia, which may be followed by oversleeping\n"
+            android:id="@+id/textView44"
+            android:background="#f3d3d3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Treatment   "
+            android:id="@+id/textView45"
+            android:background="#2e9e82" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Each woman who seeks alcohol addiction treatment requires much more than education about her disease and instruction about the steps in the recovery process.  She requires constant attention to her symptoms and to any health complications from alcoholism. She needs emotional support as she develops awareness of how alcohol abuse has impacted her life and her loved ones. She requires compassion, understanding and recovery coaching from staff that recognize the crucial step she has taken by seeking to overcome alcoholism at a residential addiction treatment center. At Timberline Knolls, our integrated team of psychiatrists, internal medicine physicians, nurses and therapists are not only experts in alcohol and drug addiction treatment.\n"
+            android:id="@+id/textView46"
+            android:background="#f3d3d3" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:id="@+id/bBack"
+            android:onClick="onClickBackButton"
+            android:background="#133a2f"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    </ScrollView>

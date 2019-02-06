@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:layout_gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.medicheckproject.medicheck.First_Aid_Kit"
+        android:background="#1dbef8"
+        android:weightSum="1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Tweezer "
+            android:id="@+id/textView11"
+            android:background="#689186" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/tweezer"
+            android:background="#1dbef8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Tweezers are an important tool to have in any first aid kit.Tweezers can be used to remove debris such as glass, dirt, or splinters from a wound."
+            android:id="@+id/textView12" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tv2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sterile wound dressing"
+            android:id="@+id/textView13"
+            android:background="#689186" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/dressing"
+            android:layout_weight="0.49" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="A sterile wound dressing is a sterile pad attached to a bandage. These are for larger wounds to apply pressure to help stop bleeding and are quick and easy to put on in an emergency."
+            android:id="@+id/textView14" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tv1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Bandages"
+            android:id="@+id/textView15"
+            android:background="#689186" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/bandages" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Bandages are large triangular shaped pieces of cloth. You can fold a triangular bandage to use as either a bandage or sling, or, if sterile, as a dressing for large wounds and burns"
+            android:id="@+id/textView16" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView17" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Disposable gloves"
+            android:id="@+id/textView18"
+            android:background="#689186" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:src="@drawable/gloves" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Using disposable gloves reduces the risk of infection between you and someone you’re helping"
+            android:id="@+id/textView19" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Cleansing wipes"
+            android:id="@+id/textView21"
+            android:background="#689186" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:id="@+id/imageView5"
+            android:src="@drawable/cleansing_wipes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Alcohol free wipes is used to clean the skin around the wound."
+            android:id="@+id/textView22" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Instance cold pack"
+            android:id="@+id/textView2"
+            android:background="#689186" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView12"
+            android:src="@drawable/instance_cold_pack" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="An instant cold pack is a device that consists of two bags; one containing water, inside a bag containing ammonium nitrate, calcium ammonium nitrate or urea.\nPut about 1 lb (0.5 kg) of ice in a plastic bag or ice pack you buy at the store. Add enough water to barely cover the ice. Squeeze the air out of the bag and seal it. Wrap the bag in a wet towel and apply to the affected area.\n"
+            android:id="@+id/textView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Antibiotic Cream"
+            android:id="@+id/textView4"
+            android:background="#689186" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView13"
+            android:src="@drawable/antibiotic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Antibiotics used to treat certain types of infections caused by bacteria. The topical cream can be used to treat certain skin infections and to prevent infections in burns, skin grafts, minor cuts, and wounds. The eye/ear drops are used to treat and prevent some types of external infections of the eye and ear. All preparations work by killing the bacteria that cause these infections.\n"
+            android:id="@+id/textView5" />
+    </LinearLayout>
+</ScrollView>
+
